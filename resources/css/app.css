@@ -1,0 +1,70 @@
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    margin-top: -190px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #161616;
+}
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+.dropdown-item:hover {
+    background-color: #cccccc;
+}
+.dropdown-item i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.btn-primary {
+    background-color: #494949;
+    border-color: #494949;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #6e0000;
+    border-color: #6e0000;
+}
